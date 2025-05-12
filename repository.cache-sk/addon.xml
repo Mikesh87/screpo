@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.cache-sk" name="Kodi cache-sk Addons" version="1.0.5" provider-name="cache-sk">
+<addon id="repository.cache-sk" name="Kodi cache-sk Addons" version="1.0.5" provider-name="mikesh87">
     <extension point="xbmc.addon.repository" name="Kodi cache-sk Addons">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/cache-sk/kodirepo/master/repository/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/cache-sk/kodirepo/master/repository/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/cache-sk/kodirepo/master/repository/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/mikesh87/screpo/master/repository/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/mikesh87/screpo/master/repository/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/mikesh87/screpo/master/repository/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
