@@ -14,7 +14,7 @@ except ImportError:
     from urllib.request import urlopen
 
 INTERVAL =  24 * 60 * 60 
-ANNOUNCEMENTS = 'https://raw.githubusercontent.com/cache-sk/kodirepo/master/announcements.json'
+ANNOUNCEMENTS = 'https://raw.githubusercontent.com/mikesh87/screpo/master/announcements.json'
 LAST = 'last_ann'
 
 if __name__ == '__main__':
