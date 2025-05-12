@@ -5,13 +5,13 @@
 
 	if (isset($_GET["path"])){
         if (false !== strpos($_GET["path"],$repo_prefix)){
-		    header("Location: https://github.com/cache-sk/kodirepo/raw/master/repository/repository.cache-sk/".$_GET["path"]);
+		    header("Location: https://github.com/mikesh87/screpo/raw/master/repository/repository.cache-sk/".$_GET["path"]);
         } else {
             header("Location: ".$files_prefix.$_GET["path"]);
         }
 		die;
 	}
-	$contents = file_get_contents("https://github.com/cache-sk/kodirepo/tree/master/repository/repository.cache-sk");
+	$contents = file_get_contents("https://github.com/mikesh87/screpo/tree/master/repository/repository.cache-sk");
 	preg_match_all('/.*"name":"repository.cache-sk-([0-9]+.[0-9]+.[0-9]+).zip".*/', $contents, $matches);
     
     $files = array_filter(scandir($files_prefix), function($item){
